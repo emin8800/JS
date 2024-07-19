@@ -2,20 +2,23 @@
 
 
 // let a = 0;
+// let b = 1;
 
 // for(i=0; i<10; i++){
 //     a+=i
+//     b*=i
 // }
-// console.log(a)
+// console.log(a,b)
 
 
 // 2. 1-dən100-ə qədər cüt ədədləri / onların cəmini / hasilini tapın
 
 // let a = 0
-
+// let b = 1
 // for(i=0; i<100; i++){
 //     if(i%2==0){
 //         a+=i
+//         b*=i
 //     }
 // }
 // console.log(a)
@@ -82,36 +85,26 @@
 
 // 8. 1-dən 100-ə qədər sadə və mürəkkəb ədədləri tapın
 
-//Birdene bunu internetden yazdm ama basa dusmedim sade nedi murekkeb nedir ))
+// let count = 0;
 
-// let primes = [];
-// let composites = [];
-
-// for (let num = 1; num <= 100; num++) {
-//     let isPrime = true;
-
-    
-//     if (num === 1 || num === 0) {
-//         isPrime = false;
-//     } else {
-//         for (let i = 2; i <= Math.sqrt(num); i++) {
-//             if (num % i === 0) {
-//                 isPrime = false;
-//                 break;
-//             }
-//         }
+// for(let eded=1; eded<100; eded++){
+//     count=0;
+//     for(let j=1; j<=eded; j++) {
+//         if(eded%j==0)
+//             count++;
+//     }
+//     if(count==2){
+//         console.log(eded, "eded Sadedir");
+//     }
+//     else if(count>2){
+//         console.log(eded, "eded Murekkebdir");
 //     }
 
-//     if (isPrime) {
-//         primes.push(num);
-//     } else {
-//         composites.push(num);
+//     else{
+//         console.log(eded, "Eded Ne Murekkeb Nede Sadedir");
 //     }
+
 // }
-
-// console.log("Sadə ədədlər:", primes);
-// console.log("Mürəkkəb ədədlər:", composites);
-
 ///////////////////////////////////////////////////////////////////////////
 
 
@@ -168,15 +161,12 @@
 
 // let number = +prompt("Eded daxil edin")
 
-// for(i=0; i<number; i++){
-//     if(number<100){
-//         console.log("Eded 100 den boyuk olmalidir")
+// for(let i=100; i<1000; i++){
+    
+//     if(i%number==0){
+//         console.log(i)
 //     }
-//     if(i>100 && i<=999){
-//         if(number%i==0){
-//             console.log(i)
-//         }
-//     }
+
 // }
 
 // 13. Daxil edilmiş ədədin bütün mümkün tam bölənlərini tapın.
@@ -194,12 +184,10 @@
 
 // 14. 12 ədədi hansı 2 ədədin cəmi ola bilər? ( Bütün kombinasiyaları tapın)
 
-// for(i=1; i<=11;i++){
-//     for(let e=i+1;e<=12;e++){
-//         if(i+e==12)
-//             console.log(`${i}+${e}=12`)
-//     }
-// }
+// for(i=1; i<6;i++){
+// console.log(i,12-i)
+//   }
+
 
 
 // 15. İki dəyişənin dəyərlərininin yerini dəyişən proqram tərtib edin. (Məsələn x=5, y=6, =&gt; x=6, y=5)
