@@ -115,6 +115,8 @@
 // let b = 20
 // let c = 8
 // const d = Math.min(a,b,c)
+// const d = Math.max(a,b,c)
+
 // console.log(d)
 
 // 10. İstifadəçi tərəfindən daxil edilən ədədin cüt olub-olmadığını yoxlayın.(Məsələn istifadəçi 12 daxil etdiyi zaman ekrana
